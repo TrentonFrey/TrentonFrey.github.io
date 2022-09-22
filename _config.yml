@@ -1,6 +1,6 @@
 # Site Settings
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
+name: Trenton Frey ePortfolio
+title: Trenton Frey | ePortfolio
 description: Jekflix is a template for Jekyll inspired by Netflix and made by
   Thiago Rossener.
 tags:
@@ -14,12 +14,8 @@ menu:
   - title: Home
     url: /
   - title: About
-    url: /about
-  - title: Contact
-    url: /contact
-  - title: Feed
-    url: /feed.xml
-email: youremail@test.com
+    url: /about    
+email: trenton.frey@snhu.edu
 # See: https://disqus.com/
 disqus_username: disqus_username
 # Contact Form Setting
@@ -29,13 +25,7 @@ formspree_form_id: formspree_form_id
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username: github_username
-facebook_username: facebook_username
-twitter_username: twitter_username
-instagram_username: instagram_username
-linkedin_username: linkedin_username
-medium_username: medium_username
-
+github_username: TrentonFrey
 
 # Posts Settings
 show_time_bar: true
