@@ -1,11 +1,11 @@
 ---
-date: 2019-05-16T23:48:05.000Z
+date: 09-22-2022
 layout: post
-title: Welcome to the desert of the real
-subtitle: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+title: Code Review
+subtitle: 'A comprensive code review.'
 description: >-
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua.
+  This is a code review going into in debth details for three artifacs.
+  I go over my planned enhancments here.
 image: >-
   https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559821647/theme6_qeeojf.jpg
 optimized_image: >-
