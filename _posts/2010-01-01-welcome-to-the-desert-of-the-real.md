@@ -34,7 +34,7 @@ implementing computer solutions that deliver value and accomplish industry-speci
  [CS-499-05] Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities,
 mitigate design flaws, and ensure privacy and enhanced security of data and resources
 
-I am using three different artifacts to enhance to meet these course outcomes. The first one is my final from CS-330, in this I use c# and opengl to create a 3D scene along with camera movments. The next artifact is from my final in CS-320. I created mobile appointment software using Java along with automated tests. The finaly artifact is my final from the CS-340 class. In this I accessed a database and implimented a update,delete,create and read function to the database. This is accessed via a web portal I created. 
+I am using three different artifacts to enhance to meet these course outcomes. The first one is my final from CS-330, in this I use c# and opengl to create a 3D scene along with camera movments. The next artifact is from my final in CS-320. I created mobile appointment software using Java along with automated tests. The finaly artifact is my final from the CS-340 class. In this I accessed a database and implimented a update,delete,create and read function to the database. This is accessed via a web portal I created.
 
 
 
