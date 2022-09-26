@@ -17,7 +17,7 @@ tags:
 author: Trenton Frey
 paginate: true
 ---
-This code review is for my CS-499 final project. We were tasked on creating a in debth code review, going over previous projects. We had to pick previous projects to make enhancement too. The goal of this is to make enhancments to show mastery of the following five course outcomes.
+This code review is for my CS-499 final project. We were tasked on creating a in debth code review, going over previous projects. The goal of this is to make enhancments to show mastery of the following five course outcomes.
 
  [CS-499-01] Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision
 making in the field of computer science
@@ -34,9 +34,8 @@ implementing computer solutions that deliver value and accomplish industry-speci
  [CS-499-05] Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities,
 mitigate design flaws, and ensure privacy and enhanced security of data and resources
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+I am using three different artifacts to enhance to meet these course outcomes. The first one is my final from CS-330, in this I use c# and opengl to create a 3D scene along with camera movments. The next artifact is from my final in CS-320. I created mobile appointment software using Java along with automated tests. The finaly artifact is my final from the CS-340 class. In this I accessed a database and implimented a update,delete,create and read function to the database. This is accessed via a web portal I created. 
 
-Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
 
 
 
