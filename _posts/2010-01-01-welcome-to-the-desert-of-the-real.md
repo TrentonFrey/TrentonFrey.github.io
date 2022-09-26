@@ -36,6 +36,7 @@ mitigate design flaws, and ensure privacy and enhanced security of data and reso
 
 I am using three different artifacts to enhance to meet these course outcomes. The first one is my final from CS-330, in this I use c# and opengl to create a 3D scene along with camera movments. The next artifact is from my final in CS-320. I created mobile appointment software using Java along with automated tests. The finaly artifact is my final from the CS-340 class. In this I accessed a database and implimented a update,delete,create and read function to the database. This is accessed via a web portal I created.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/N75FA2BhEF8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
