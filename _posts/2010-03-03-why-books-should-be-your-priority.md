@@ -1,8 +1,8 @@
 ---
 date: 2022-10-01 12:26:40
 layout: post
-title: Enhancement One: Software Design and Engineering.
-subtitle: This enhancment is on my CS-330 final project
+title: Enhancement One Software Design and Engineering.
+subtitle: 'This enhancment is on my CS-330 final project.'
 description: A 3D scene wrote in c# using OpenGL.
 image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559822138/theme9_v273a9.jpg
 optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559822138/theme9_v273a9.jpg
