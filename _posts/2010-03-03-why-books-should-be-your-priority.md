@@ -10,7 +10,7 @@ category: Enhancment
 tags:
   - Software Design
   - Engineering
-author: thiagorossener
+author: Trenton Frey
 paginate: true
 ---
 
