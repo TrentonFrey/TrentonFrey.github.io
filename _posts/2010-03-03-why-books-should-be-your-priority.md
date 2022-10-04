@@ -32,9 +32,9 @@ paginate: true
 
 
 
-## Code
+## Before enhacment
 
-Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
+This my old method for creating my 3D objects.
 
 ```js
 // Example can be run directly in your JavaScript console
