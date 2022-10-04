@@ -170,77 +170,73 @@ void UCreateMesh(GLMesh& mesh)
 
 <!--page-->
 
-Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
 
-## Lists
+## After enhacment
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+This my new method for creating my 3D objects utilzing the object loader.
 
-* Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-* Donec id elit non mi porta gravida at eget metus.
-* Nulla vitae elit libero, a pharetra augue.
 
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
+```c#
+// Implements the UCreateMesh function
+//Using the objectloader to load in differnt objects.
+//Grab the 3d object object files.
+//Big change here. No longer building line by line from a vertex table
+void UCreateMesh(GLMesh& mesh)
+{
+    std::vector<glm::vec3> vertices;
+    std::vector<glm::vec2> uvs;
+    std::vector<glm::vec3> normals;
 
-1. Vestibulum id ligula porta felis euismod semper.
-2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-3. Maecenas sed diam eget risus varius blandit sit amet non magna.
+    loadOBJ("table.obj", vertices, uvs, normals);
+    mesh.lengthOfObjects[0] = vertices.size();
+    loadOBJ("top.obj", vertices, uvs, normals);
+    mesh.lengthOfObjects[1] = vertices.size() - mesh.lengthOfObjects[0];
+   
 
-<!--page-->
+    const GLuint normalsPerVertex = 3;
+    const GLuint floatsPerVertex = 3;
+    const GLuint floatsPerUV = 2;
 
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
+    mesh.nVertices = vertices.size();
 
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
+    glGenVertexArrays(1, &mesh.vao); // we can also generate multiple VAOs or buffers at the same time
+    glBindVertexArray(mesh.vao);
 
-## Images
+    //Create UV VBO
+    glGenBuffers(1, &mesh.uvBuffer);
+    glBindBuffer(GL_ARRAY_BUFFER, mesh.uvBuffer); // Activates the buffer
+    glBufferData(GL_ARRAY_BUFFER, uvs.size() * sizeof(glm::vec2), &uvs[0], GL_STATIC_DRAW);
 
-Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
+    //Create normal VBO
+    glGenBuffers(1, &mesh.normalBuffer);
+    glBindBuffer(GL_ARRAY_BUFFER, mesh.normalBuffer); // Activates the buffer
+    glBufferData(GL_ARRAY_BUFFER, normals.size() * sizeof(glm::vec3), &normals[0], GL_STATIC_DRAW);
 
-![placeholder](https://placehold.it/800x400 "Large example image")
-![placeholder](https://placehold.it/400x200 "Medium example image")
-![placeholder](https://placehold.it/200x200 "Small example image")
+    //Create VBO
+    glGenBuffers(1, &mesh.vbo);
+    glBindBuffer(GL_ARRAY_BUFFER, mesh.vbo); // Activates the buffer
+    glBufferData(GL_ARRAY_BUFFER, vertices.size() * sizeof(glm::vec3), &vertices[0], GL_STATIC_DRAW);
 
-## Tables
+    // Strides between vertex coordinates
+    GLint stride = 0;
 
-Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    // Create Vertex Attribute Pointers
+    glVertexAttribPointer(0, floatsPerVertex, GL_FLOAT, GL_FALSE, stride, 0);
+    glEnableVertexAttribArray(0);
 
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Upvotes</th>
-      <th>Downvotes</th>
-    </tr>
-  </thead>
-  <tfoot>
-    <tr>
-      <td>Totals</td>
-      <td>21</td>
-      <td>23</td>
-    </tr>
-  </tfoot>
-  <tbody>
-    <tr>
-      <td>Alice</td>
-      <td>10</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <td>Bob</td>
-      <td>4</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>Charlie</td>
-      <td>7</td>
-      <td>9</td>
-    </tr>
-  </tbody>
-</table>
+    // Create Normal Attribute Pointers
+    glEnableVertexAttribArray(1);
+    glBindBuffer(GL_ARRAY_BUFFER, mesh.normalBuffer);
+    glVertexAttribPointer(1, normalsPerVertex, GL_FLOAT, GL_FALSE, stride, 0);
+
+    // Create UV Attribute Pointers
+    glEnableVertexAttribArray(2);
+    glBindBuffer(GL_ARRAY_BUFFER, mesh.uvBuffer);
+    glVertexAttribPointer(2, floatsPerUV, GL_FLOAT, GL_FALSE, stride, 0);
+```
 
 <!--page-->
 
-Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
 
 
 
