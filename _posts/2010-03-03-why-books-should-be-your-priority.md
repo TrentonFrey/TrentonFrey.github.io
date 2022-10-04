@@ -36,7 +36,7 @@ paginate: true
 
 This my old method for creating my 3D objects.
 
-```js
+```c#
 // Example can be run directly in your JavaScript console
 
 // Create a function that takes two arguments and returns the sum of those arguments
