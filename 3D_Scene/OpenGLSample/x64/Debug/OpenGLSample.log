@@ -1,0 +1,19 @@
+﻿  controls.cpp
+C:\Users\freyd\Desktop\3D_Scene\OpenGLSample\controls.cpp(2,10): fatal error C1083: Cannot open include file: 'GLFW/glfw3.h': No such file or directory
+  objloader.cpp
+C:\Users\freyd\Desktop\3D_Scene\OpenGLSample\objloader.cpp(6,10): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  quaternion_utils.cpp
+C:\Users\freyd\Desktop\3D_Scene\OpenGLSample\quaternion_utils.cpp(1,10): fatal error C1083: Cannot open include file: 'glm/gtc/quaternion.hpp': No such file or directory
+  shader.cpp
+C:\Users\freyd\Desktop\3D_Scene\OpenGLSample\shader.cpp(13,10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  Source.cpp
+C:\Users\freyd\Desktop\3D_Scene\OpenGLSample\Source.cpp(3,10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  tangentspace.cpp
+C:\Users\freyd\Desktop\3D_Scene\OpenGLSample\tangentspace.cpp(2,10): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  text2D.cpp
+C:\Users\freyd\Desktop\3D_Scene\OpenGLSample\text2D.cpp(4,10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  texture.cpp
+C:\Users\freyd\Desktop\3D_Scene\OpenGLSample\texture.cpp(5,10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  vboindexer.cpp
+C:\Users\freyd\Desktop\3D_Scene\OpenGLSample\vboindexer.cpp(4,10): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  Generating Code...
