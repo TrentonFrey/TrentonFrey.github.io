@@ -29,7 +29,7 @@ paginate: true
   
   The enhancments I made align perfectly with two course outcomes. These outcomes include, Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices (data structures and algorithms). I achevied this by my enhcnament of the added workflow feature. This utilizes algorithms to ensure the automated testing is correct. I aslo use a few different data structures to hold user inputs. The other course outcome is Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science. This was achevied by my commenting standard change and updated the readme file.
   
-## Example of automated tests
+#### Example of automated tests
 ```java
 
  //Test for adding a workflow item
