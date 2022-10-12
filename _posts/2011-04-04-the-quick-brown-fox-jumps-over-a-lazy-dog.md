@@ -1,134 +1,82 @@
 ---
-date: 2018-10-09 12:26:40
+date: 2022-10-02 12:26:40
 layout: post
-title: The quick brown fox jumps over a lazy dog
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_760/v1506079212/jekflix-capa_vfhuzh.png
-optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1506079212/jekflix-capa_vfhuzh.png
-category: css
+title: Enhancement Two Algorithms and Data Structure.
+subtitle: This enhancment is on my CS-320 final project.
+description: Mobile appointment software with automated testing.
+image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559820489/js-code_n83m7a.jpg
+optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559820489/js-code_n83m7a.jpg
+category: Enhancment
 tags:
-  - css
-  - tips
-author: thiagorossener
+  - Algorithms
+  - Data Structures
+author: Trenton Frey
+paginate: true
 ---
 
-Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+### Enhancments Made
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+* Workflow feature added.
+* Workflow feature automated testing added.
+* Reworked commenting standards throughout code.
+* Updated README file.
 
-Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+#### Project Narrative
 
-## Inline HTML elements
+  The artifact I am using for milestone three is my final project from my cs 320 class. The goal of this  project was to create a mobile appointment software. The original features requested were to take inputs from the user for contact information, appointment information and task information. I also created automated testing to test the features implemented.
 
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
+  I decided to use this for my second artifact for a few different reasons. The main reason being I enjoyed this project alot and felt I did well on meeting the “customer” requirements. This project I felt really mirrors a real world experience as well. The implementation of user inputs and storing them in lists and arrays really stood out to me for this enhancement. The use of them throughout the entire program highlights this perfectly. I did a handful of enhancements on this artifact. The first enhancement needed I noticed very quickly in my code review video is an extreme lack of comments throughout the code. This was addressed and all files are commented to a set standard. The next enhancement I wanted to add a feature to this software. This is a workflow feature to add work items to the software. With this we can add work items using an id, name and a description. This is aimed to be a productivity product. This feature allows you to add,delete and update workflow items. I also created automated testing to test this new feature. Lastly I updated my readme file to reflect the changes.
+  
+  The enhancments I made align perfectly with two course outcomes. These outcomes include, Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices (data structures and algorithms). I achevied this by my enhcnament of the added workflow feature. This utilizes algorithms to ensure the automated testing is correct. I aslo use a few different data structures to hold user inputs. The other course outcome is Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science. This was achevied by my commenting standard change and updated the readme file.
+  
+  ## Example of automated tests
+```java
 
-- **To bold text**, use `<strong>`.
-- *To italicize text*, use `<em>`.
-- Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use `<abbr>`, with an optional `title` attribute for the full phrase.
-- Citations, like <cite>&mdash; Thiago Rossener</cite>, should use `<cite>`.
-- <del>Deleted</del> text should use `<del>` and <ins>inserted</ins> text should use `<ins>`.
-- Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
+ //Test for adding a workflow item
+	   public boolean addWork(Work work) {
+	       
+	        int index = getIndex(work);
 
-Most of these elements are styled by browsers with few modifications on our part.
+	        
+	        if (index < 0 && validateID(work.getId()) && validateName(work.getName()) && validateDescription(work.getDescription())) {
+	            work.add(work);
+	            return true;
+	        }
+	        
+	        return false;
+	    }
+	   
+	   //Test to delete existing workflow item
+	   public void deleteWork(String id) {
+	        
+	        int index = getIndex(new Work(id, "", ""));
+	        
+	        
+	        if (index >= 0)
+	            work.remove(index);
+	    }
+	   
+	   
+	   //Test to update existing workflow item
+	   public void update(Work work) {
+	        for (Work obj : work) {
+	            if (obj.equals(work) && validateName(work.getName()) && validateDescription(work.getDescription())) {
+	                obj.setName(work.getName());
+	                obj.setDescription(work.getDescription());
+	            }
+	        }
+	    }
 
-# Heading 1
 
-## Heading 2
 
-### Heading 3
-
-#### Heading 4
-
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-
-## Code
-
-Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
-
-```js
-// Example can be run directly in your JavaScript console
-
-// Create a function that takes two arguments and returns the sum of those arguments
-var adder = new Function("a", "b", "return a + b");
-
-// Call the function
-adder(2, 6);
-// > 8
+  
 ```
 
-Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
-
-## Lists
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-* Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-* Donec id elit non mi porta gravida at eget metus.
-* Nulla vitae elit libero, a pharetra augue.
-
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
-
-1. Vestibulum id ligula porta felis euismod semper.
-2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-3. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
-
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-## Images
-
-Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
-
-![placeholder](https://placehold.it/800x400 "Large example image")
-![placeholder](https://placehold.it/400x200 "Medium example image")
-![placeholder](https://placehold.it/200x200 "Small example image")
-
-## Tables
-
-Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Upvotes</th>
-      <th>Downvotes</th>
-    </tr>
-  </thead>
-  <tfoot>
-    <tr>
-      <td>Totals</td>
-      <td>21</td>
-      <td>23</td>
-    </tr>
-  </tfoot>
-  <tbody>
-    <tr>
-      <td>Alice</td>
-      <td>10</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <td>Bob</td>
-      <td>4</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>Charlie</td>
-      <td>7</td>
-      <td>9</td>
-    </tr>
-  </tbody>
-</table>
-
-Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-
-
-
-
+<!--page-->
+  
+  
+  While I was creating this enhancement it actually went very smooth which is unexpected in this field. The planning process was a big reason for this. Having a layout and peusudo code kept me on track with the enhancement. This did take me longer than I would have wanted to spend though. This was a pretty big addition and took time to complete but I wanted to add everything I originally set in module 1. The main thing I learned while creating this enhancement is to maybe scale back a design to meet time requirements better. 
+  
 
 
 
