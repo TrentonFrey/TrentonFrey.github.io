@@ -1,5 +1,5 @@
 ---
-date: 2022-10-13 12:26:40
+date: 2022-10-12 12:26:40
 layout: post
 title: Professional self-assessment
 subtitle: Reflecting on my experience.
