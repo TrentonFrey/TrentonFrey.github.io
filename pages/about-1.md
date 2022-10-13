@@ -9,11 +9,6 @@ description: Some description.
 
 <img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Thiago Rossener" width="200">
 
-# About
+# About Trenton Frey
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Hi, My name is Trent and I am developer from Pennsylvania. I studied at Southern New Hampshire University to achive my bachelor's degree in computer science. I pride myself in my ability to adapt and overcome any difficulties in life. I find it very important to live a fulfilled life by always improve my mind and body. I have a ton of hobbies that include camping, mountian biking, photograpghy and mechanical work. I consider myself to be a jack of all trades. 
