@@ -5,7 +5,7 @@ description: Some description.
 permalink: /about/
 ---
 
-<img class="img-rounded" src="assets/img/uploads/me.jpg" >
+<img class="img-rounded" src="https://github.com/TrentonFrey/TrentonFrey.github.io/blob/7a49fe353f8b9f584179493d7603da6f62d98acb/assets/img/uploads/me.jpg" >
 
 # About Trenton Frey
 
