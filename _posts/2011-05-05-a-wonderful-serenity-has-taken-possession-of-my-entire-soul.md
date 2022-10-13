@@ -1,130 +1,50 @@
 ---
-date: 2018-07-20 12:26:40
+date: 2022-10-03 12:26:40
 layout: post
-title: A wonderful serenity has taken possession of my entire soul
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+title: Enhancement Three Databases
+subtitle: 'This enhancment is on my CS-340 final project.'
+description: Full stack development to create a animal shelter database.
 image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559820489/js-code_n83m7a.jpg
-optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559820489/js-code_n83m7a.jpg
-category: code
+optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559820489/js-code_n83m7a.jpg
+category: Enhancment
 tags:
-  - platform
-  - javascript
-  - vscode
-author: thiagorossener
+  - Database
+  - Full stack
+author: Trenton Frey
+paginate: true
 ---
 
-Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+### Enhancments Made
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+* Increased database user functionality for speed and efficiency.
+* Added login to front end web portal with back end support (Username/Password).
+* Reworked commenting standards throughout code.
+* Updated README file.
 
-Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+#### Project Narrative
 
-## Inline HTML elements
+  The artifact I am using for milestone four  is my final project from my cs 340 class. This project we created a mongodb using data provided from the instructor. We then had to make a backend program to access this data. We had to have a create,read, update and delete function in this. We then had to make a front end web portal for users to access this data. The web portal is to be used by an animal shelter. 
+  
+  This was my first experience with full stack development and using a database in a real world application. I wanted to include this project for my artifact due to its real world feel and the fact that I had some known issues when I finished it in my cs 340 class. The main issue I found and could not resolve at the time was database functionality speed. My create, read, update and delete functions seem slow to standard. This made it a perfect candidate for me to enhance now.
+  
+  The enhancements I made on this project include rebuilding the create,read,delete and update functionality of the backend to the database. I  had to rebuild from the ground up to enhance the speed of the functions. This was done by storing user queue data throughout the program instead of having to grab the user queue for each run. The next change was an addition of a login feature. This was done to the front end web portal and supported in the backend. The database stores password information. The following change was changing the commenting standard throughout the code with readability and professional use in mind.  Finally I updated the included readme file to include the changes made.
+  
+  The course outcomes I reached with these changes are as follows. Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals. This was achieved with rebuilding the create,read,delete and update functionality of the backend to the database to increase speed and efficiency. The next outcome I reached is to design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts. This was achieved by reworking commenting standards throughout the code and updating the readme file. The final outcome I reached is to develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources. This was achieved by adding a user login feature to the webportal, this limits the access to the database and protects client data.
+  
+  Comparing what I achieved with these changes compared to my original plan in module one, I met more objectives than I originally expected to. I was able to include the commenting standard change alongside the updated readme file. 
+	The main thing I learned with this milestone enhancement is to ensure you set a strong enough timeline to support unexpected issues. I originally did not expect to have to rebuild the CRUD functionality from the ground up. This added development time I was not expecting. 
 
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
+<a href="https://github.com/TrentonFrey/TrentonFrey.github.io/tree/master/AnimalShelterDatabase">Link to Enhanced Animal Shelter Database </a>
 
-- **To bold text**, use `<strong>`.
-- *To italicize text*, use `<em>`.
-- Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use `<abbr>`, with an optional `title` attribute for the full phrase.
-- Citations, like <cite>&mdash; Thiago Rossener</cite>, should use `<cite>`.
-- <del>Deleted</del> text should use `<del>` and <ins>inserted</ins> text should use `<ins>`.
-- Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
+<a href="https://github.com/TrentonFrey/TrentonFrey.github.io/tree/master/Database(OLD)">Link to Original Animal Shelter Database </a>
 
-Most of these elements are styled by browsers with few modifications on our part.
+  
+  
 
-# Heading 1
 
-## Heading 2
+  
 
-### Heading 3
 
-#### Heading 4
-
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-
-## Code
-
-Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
-
-```js
-// Example can be run directly in your JavaScript console
-
-// Create a function that takes two arguments and returns the sum of those arguments
-var adder = new Function("a", "b", "return a + b");
-
-// Call the function
-adder(2, 6);
-// > 8
-```
-
-Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
-
-## Lists
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-* Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-* Donec id elit non mi porta gravida at eget metus.
-* Nulla vitae elit libero, a pharetra augue.
-
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
-
-1. Vestibulum id ligula porta felis euismod semper.
-2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-3. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
-
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-## Images
-
-Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
-
-![placeholder](https://placehold.it/800x400 "Large example image")
-![placeholder](https://placehold.it/400x200 "Medium example image")
-![placeholder](https://placehold.it/200x200 "Small example image")
-
-## Tables
-
-Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Upvotes</th>
-      <th>Downvotes</th>
-    </tr>
-  </thead>
-  <tfoot>
-    <tr>
-      <td>Totals</td>
-      <td>21</td>
-      <td>23</td>
-    </tr>
-  </tfoot>
-  <tbody>
-    <tr>
-      <td>Alice</td>
-      <td>10</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <td>Bob</td>
-      <td>4</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>Charlie</td>
-      <td>7</td>
-      <td>9</td>
-    </tr>
-  </tbody>
-</table>
-
-Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
 
 
 
