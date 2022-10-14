@@ -5,7 +5,7 @@ description: Some description.
 permalink: /about/
 ---
 
-<img src="https://github.com/TrentonFrey/TrentonFrey.github.io/blob/4d127ead68474c3da4a014cfeabdab44f68a6044/assets/img/uploads/me.png" alt="Trent Frey" >
+<img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Thiago Rossener" width="200">
 
 
 
