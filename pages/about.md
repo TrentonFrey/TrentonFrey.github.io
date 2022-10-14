@@ -7,6 +7,15 @@ permalink: /about/
 
 <img src="https://github.com/TrentonFrey/TrentonFrey.github.io/blob/4d127ead68474c3da4a014cfeabdab44f68a6044/assets/img/uploads/me.png" alt="Trent Frey" >
 
+
+
+
+
+
+
+
+
+
 # About Trenton Frey
 
 Hi, My name is Trent and I am developer from Pennsylvania. I studied at Southern New Hampshire University to achive my bachelor's degree in computer science. I pride myself in my ability to adapt and overcome any difficulties in life. I find it very important to live a fulfilled life by always improving my mind and body. I have a ton of hobbies that include camping, mountian biking and photograpghy. I consider myself to be a jack of all trades. 
