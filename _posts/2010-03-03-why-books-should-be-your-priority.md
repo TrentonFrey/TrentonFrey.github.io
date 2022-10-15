@@ -14,7 +14,7 @@ author: Trenton Frey
 paginate: true
 ---
 
-### Enhancments Made
+### Enhancements Made
 
 * Multi-texture support
 * Ability to load external object files
@@ -23,16 +23,16 @@ paginate: true
 #### Project Narrative
   The artifact that I am using for milestone two is my final project from my CS-330 class. This project we used openGL to create a three dimensional scene.  This project was one of the hardest I have ever had to do. I spent so much time working on this and it took a lot of effort. This is the main reason why I wanted to use this for my artifact. I was not happy with the state of the project when I submitted it in CS-330. I was only able to implement one texture for the objects. This gave me a clear way to enhance this project for the artifact. I used two textures this time around. Using a library I was able to load external files into the program rather than just create the object within the program main file.
   
-  The enhancments I made to this aligin perfeclty with two course outcomes. These include, demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals. Along side employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science.
+  The enhancements I made to this aligin perfectly with two course outcomes. These include, demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals. Along side employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science.
   
-  My big enhancment to this is the ability to load in more than one texture and build 3D models using external object files. This change cleaned up the code significantly while enhancing the usability. The next enhancment was made to the commenting standard throughout the code. This change significantly increased readability and the professional look of the code.
+  My big enhancement to this is the ability to load in more than one texture and build 3D models using external object files. This change cleaned up the code significantly while enhancing the usability. The next enhancement was made to the commenting standard throughout the code. This change significantly increased readability and the professional look of the code.
   
   This artifact was more of a pain than I originally thought it was going to be. Unfortunately nothing in life is as smooth sailing as we would like. My first problem came in the form of a lost solution file. This was a big problem and caused me a ton of time to be wasted. I had all the other necessary files to edit, but without the solution file, visual studio would not debug. I had to rebuild from the ground up while making sure to include all directories and opengl libraries. After the base project was fixed, I was able to start on my enhancements. The main thing I learned while creating the enhancement for the artifact was “expect the unexpected”. Every step I took, felt like it put me five steps back. 
   
 
 
 
-## Before enhancment
+## Before enhancement
 
 This is my old method for creating my 3D objects.
 
