@@ -4,8 +4,8 @@ layout: post
 title: Code Review
 subtitle: 'A comprensive code review.'
 description: >-
-  This is a code review going into in debth details for three artifacs.
-  I go over my planned enhancments here.
+  This is a code review going into in depth details for three artifacts.
+  I go over my planned enhancements here.
 image: >-
   https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559821647/theme6_qeeojf.jpg
 optimized_image: >-
