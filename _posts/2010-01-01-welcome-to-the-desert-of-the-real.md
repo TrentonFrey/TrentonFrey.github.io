@@ -17,7 +17,7 @@ tags:
 author: Trenton Frey
 paginate: true
 ---
-This code review is for my CS-499 final project. This review is going over three programing artifacts that I have previously created. The end goal of this is to make enhancments to these projects to show mastery of the following five course outcomes.
+This code review is for my CS-499 final project. This review is going over three programing artifacts that I have previously created. The end goal of this is to make enhancements to these projects to show mastery of the following five course outcomes.
 
  [CS-499-01] Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision
 making in the field of computer science
