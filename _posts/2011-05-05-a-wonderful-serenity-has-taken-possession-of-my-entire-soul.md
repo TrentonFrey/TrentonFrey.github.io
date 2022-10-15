@@ -16,14 +16,14 @@ paginate: true
 
 ### Enhancements Made
 
-* Increased database user functionality for speed and efficiency.
-* Added login to front end web portal with back end support (Username/Password).
-* Reworked commenting standards throughout the code.
-* Updated README file.
+* Increased database user functionality for speed and efficiency
+* Added login to front end web portal with back end support (Username/Password)
+* Reworked commenting standards throughout the code
+* Updated README file
 
 #### Project Narrative
 
-  The artifact I am using for milestone four is my final project from my CS-340 class. With this project we created a mongodb using data provided from the instructor. We then had to make a backend program to access this data. We had to have a create, read, update and delete function in project. We then had to make a frontend web portal for users to access this data. The web portal is to be used by an animal shelter. 
+  The artifact I am using for milestone four is my final project from my CS-340 class. With this project we created a mongodb using data provided from the instructor. We then had to make a backend program to access this data. We had to have a create, read, update and delete function in the project. We then had to make a frontend web portal for users to access this data. The web portal is to be used by an animal shelter. 
   
   This was my first experience with full stack development and using a database in a real world application. I wanted to include this project for my artifact due to its real world feel and the fact that I had some known issues when I finished it in my CS-340 class. The main issue I found and could not resolve at the time was database functionality speed. My create, read, update and delete functions seemed slow to standard. This made it a perfect candidate for me to enhance.
   
