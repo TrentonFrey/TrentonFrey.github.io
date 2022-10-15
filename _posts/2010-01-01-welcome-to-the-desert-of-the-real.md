@@ -17,7 +17,7 @@ tags:
 author: Trenton Frey
 paginate: true
 ---
-This code review is for my CS-499 final project. We were tasked on creating a in debth code review, going over previous projects. The goal of this is to make enhancments to these projects to show mastery of the following five course outcomes.
+This code review is for my CS-499 final project. This review is going over three programing artifacts I have previously created. The end goal of this is to make enhancments to these projects to show mastery of the following five course outcomes.
 
  [CS-499-01] Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision
 making in the field of computer science
@@ -34,7 +34,7 @@ implementing computer solutions that deliver value and accomplish industry-speci
  [CS-499-05] Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities,
 mitigate design flaws, and ensure privacy and enhanced security of data and resources
 
-I am using three different artifacts to enhance to meet these course outcomes. The first one is my final from CS-330, in this I use c++ and opengl to create a 3D scene along with camera movments. The next artifact is from my final in CS-320. I created mobile appointment software using Java along with automated tests. The finaly artifact is my final from the CS-340 class. In this I accessed a database and implimented a update,delete,create and read function to the database. This is accessed via a web portal I created.
+I am enhancing three different artifacts meet these course outcomes. The first one is my final from CS-330. In this artifact I use c++ and opengl to create a 3D scene along with camera movments. The next artifact is from my final in CS-320. I created mobile appointment software using Java along with automated tests. My last artifact is my final from the CS-340 class. In this artifact, I accessed a database and implimented a update, delete, create and read function to the database. This is accessed via a web portal that I created.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/N75FA2BhEF8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
