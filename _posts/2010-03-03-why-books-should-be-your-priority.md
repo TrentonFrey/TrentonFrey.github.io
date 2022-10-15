@@ -171,7 +171,7 @@ void UCreateMesh(GLMesh& mesh)
 <!--page-->
 
 
-## After enhancment
+## After enhancement
 
 This my new method for creating my 3D objects utilzing the object loader.
 
