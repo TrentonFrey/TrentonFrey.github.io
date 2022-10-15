@@ -1,7 +1,7 @@
 ---
 date: 2022-10-07 12:26:40
 layout: post
-title: Enhancement Two Algorithms and Data Structure.
+title: Enhancement Two Algorithms and Data Structure
 subtitle: This enhancment is on my CS-320 final project.
 description: Mobile appointment software with automated testing.
 image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559820489/js-code_n83m7a.jpg
