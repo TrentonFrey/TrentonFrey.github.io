@@ -13,7 +13,9 @@ menu:
   - title: Home
     url: /
   - title: About
-    url: /about    
+    url: /about
+  - title: Play A Game!
+    url: /about 
 email: trenton.frey@snhu.edu
 # See: https://disqus.com/
 disqus_username: disqus_username
