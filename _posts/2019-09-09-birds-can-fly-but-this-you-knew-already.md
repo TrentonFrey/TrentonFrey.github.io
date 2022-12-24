@@ -16,14 +16,14 @@ paginate: true
 
 ### Education
 
-Southern New Hampshire University
+**Southern New Hampshire University**
 
 *2018-2022*
 
 Bachelor of Computer Science
 Minor: Information Systems
 
-Clarion County Career Center
+**Clarion County Career Center**
 
 *2015-2017*
 
@@ -39,11 +39,11 @@ Technical Degree
 
 ### Work Experience
 
-Network Operations Specialist at Accuweather.
+**Network Operations Specialist at Accuweather**
 
 *Sep 2019 - Current*
 
-Duties Included 
+**Duties Included**
 
 * Monitored and first line of troubleshooting for over more than 200 systems(Linux, Windows and Mac). Aided higher tier support when necessary.
 * Handle over 30 help desk tickets a day for various issues. May that be product related, end-user or api.
@@ -58,11 +58,11 @@ Duties Included
 * Dropbox administation. 
 
 
-Help Desk Support at Curwensville Lake.
+**Help Desk Support at Curwensville Lake**
 
 *Feb 2018 – Aug 2019*
 
-Duties Included 
+**Duties Included**
 
 * Developed efficient and effective customer service solutions.
 * Planned, implemented, and tested software and hardware. 
@@ -70,11 +70,11 @@ Duties Included
 * Developed work-flow charts and diagrams to ensure production team compliance with client deadlines.
 
 
-Freelance at Self Employed.
+**Freelance at Self Employed**
 
 *March 2017 – February 2018*
 
-Duties Included 
+**Duties Included** 
 
 * Create and implement full projects at customer request. Created a bitcoin mining farm with over 20 systems and provided networking and operational support.
 * Create small networks for local business and provide support for networking and hardware equipment.
