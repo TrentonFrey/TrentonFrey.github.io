@@ -40,6 +40,7 @@ Technical Degree
 ### Work Experience
 
 Network Operations Specialist at Accuweather.
+
 *Sep 2019 - Current
 
 Duties Included 
@@ -58,6 +59,7 @@ Duties Included
 
 
 Help Desk Support at Curwensville Lake.
+
 *Feb 2018 – Aug 2019
 
 Duties Included 
@@ -69,6 +71,7 @@ Duties Included
 
 
 Freelance at Self Employed.
+
 *March 2017 – February 2018
 
 Duties Included 
