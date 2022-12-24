@@ -17,12 +17,16 @@ paginate: true
 ### Education
 
 Southern New Hampshire University
+
 #2018-2022
+
 Bachelor of Computer Science
 Minor: Information Systems
 
 Clarion County Career Center
+
 #2015-2017
+
 Technical Degree
 
 ### Certifications
